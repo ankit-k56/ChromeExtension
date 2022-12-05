@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New tab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="welcome">  
+        <h1 id="salutation" class="h1primary">
+            Namaste <span id="name" class="h1primary" > <input class="h1primary" id="nameinp" type="text" placeholder="your name"> </span> 
+            Sensei
+        </h1>
+        <div id="time">
+
+        </div>        
+    </div>      
+    
+    <div id="taskcontainer">
+        <div id="taskinp">
+            <input type="text" id="tasknum" placeholder="Enter a task">
+            <button id="addtask">+</button>
+        </div>
+        <ul id="taskul">
+            
+        </ul>
+    </div>
+    <div id="quoteContainer">
+        <p id="quote"></p>
+        <span id="nextQuote"><i class="fa-solid fa-forward"></i></span>
+    </div>
+    <span id="nextBg"><i class="fa-solid fa-forward"></i></span>
+    
+    <script src="scripts/quote.js" ></script>
+    <script src="scripts/background.js"></script>
+    <script src="scripts/main.js"></script> 
+    <script src="scripts/time.js"></script>
+</body>
+</html>
